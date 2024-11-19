@@ -35,16 +35,21 @@ Unzip the folder and import the folder into the eclipse like existing maven proj
 Step 5:
 Once after importing the folder we will see the src folder and pom.xml file in the application. Replace those with ones that are in the below repository. 
 
-### Clone the Repository
+Step 6:
 To clone the repository, run the following command in your terminal:
 git clone https://github.com/sdnvarmachintala/employeedemo.git
 
-Step 6:
+Step 7:
 Change the DB credentials in application.properties file.Import the .sql file in the repo to create the tables that are needed.
 
-Step 7:
+Step 8:
 Maven will install all the dependencies in the pom.xml. Once after run your application from the IDE.
  
 mvn clean install - Bash command to clean and install the spring boot application
 mvn spring-boot:run - Bash command to run the spring boot application
+
+Step 9:
+Once the application is up and running, you can access the web service API at http://localhost:8080. You can use tools like Postman or cURL to interact with the REST endpoints given in the overview section.
+
+
 
