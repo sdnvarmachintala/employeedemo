@@ -15,3 +15,7 @@ To clone the repository, run the following command in your terminal:
 
 
 git clone https://github.com/sdnvarmachintala/employeedemo.git
+
+### Tables Creation
+
+Import the .sql file in the repo to create the tables that are needed.
